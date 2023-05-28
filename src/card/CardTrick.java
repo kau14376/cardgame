@@ -40,8 +40,17 @@ public class CardTrick {
 
         System.out.println("Your card is: " + card);
         // and search magicHand here
-        
-        //Then report the result here
-    }
+        boolean matchFound = false;
+                matchFound = true;
+         // Display the result
+        if (matchFound) {
+            System.out.println("Congratulations! Your card is in the magic hand.");
+        } else {
+            System.out.println("Sorry! Your card is not in the magic hand.");
+        }
     
+    }
 }
+    
+    
+
