@@ -30,7 +30,7 @@ public class CardTrick {
         //insert code to ask the user for Card value and suit, create their card
          Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the card value (2-10, J, Q, K, A): ");
+        System.out.print("Enter the card value : ");
         String value = scanner.nextLine();
 
         System.out.print("Enter the card suit (hearts, diamonds, clubs, spades): ");
@@ -44,9 +44,9 @@ public class CardTrick {
                 matchFound = true;
          // Display the result
         if (matchFound) {
-            System.out.println("Congratulations! Your card is in the magic hand.");
+            System.out.println("Congratulations... Your card is in the magic hand.");
         } else {
-            System.out.println("Sorry! Your card is not in the magic hand.");
+            System.out.println("Sorry!! Your card is not in the magic hand.");
         }
     
     }
